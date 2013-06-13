@@ -17,7 +17,7 @@ This script also installs all latest and stable: Postfix MTA, PHPMyAdmin (I need
 
 cd /tmp/
 
-curl --output /tmp/kaldin_debv3.sh https://github.com/girishkg/kaldin/blob/master/kaldin_deb.sh
+curl --output /tmp/kaldin_debv3.sh https://raw.github.com/girishkg/kaldin/master/kaldin_deb.sh
 
 (2.2) Make it executable:
 
