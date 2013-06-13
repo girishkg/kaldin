@@ -12,7 +12,7 @@ SOURCES_APT=/etc/apt/sources.list
 APACHE_CONF=/etc/apache2/apache2.conf
 JAVA_VER=oracle-java7
 JAVAPATH=/usr/lib/jvm/
-SERVER_FQDN=kaldiin.com			## Change this as per your server name
+#SERVER_FQDN=kaldiin.com			## Change this as per your server name
 
 ##
 #####		Function to prompt for user attention
@@ -68,6 +68,10 @@ wget $KALDIN_WAR
 pause 'Press [Enter] if kaldin.war has been downloaded successfully, else open another SSH session and correct the same, come over here and then press [Enter] to continue'
 
 ##### Setting up apache2 with "ServerName $SERVER_FQDN:80"
+echo "Enter your Server FQDN in the format of host.domain.com"
+read inputline
+SERVER_FQDN="$inputline"
+
 echo "ServerName $SERVER_FQDN:80" >> $APACHE_CONF
 ##### 		Setting up apache2 proxy for Tomcat7
 cat >> $APACHE_CONF << EOF
