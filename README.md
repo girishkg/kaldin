@@ -25,7 +25,7 @@ chmod +x /tmp/kaldin_debv3.sh
 
 (2.3) Run the the install script: 
 
-./kaldin_deb
+./kaldin_debv3.sh
 
 (2.4) Folow the on-screen instructions to complete the installation
 
