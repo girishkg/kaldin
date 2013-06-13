@@ -29,6 +29,6 @@ chmod +x /tmp/kaldin_debv3.sh
 
 (2.4) Folow the on-screen instructions to complete the installation
 
-(2.5) Open up web browser and visit http://server_ip/kaldin/ to complete the installation
+(2.5) Open up the web browser and visit http://server_ip/kaldin/ to complete the installation
 
 #Cheers....!
