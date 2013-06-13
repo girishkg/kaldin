@@ -1,7 +1,7 @@
 #!/bin/bash
 #########   	Installing Kaldin Online Exam Management Solution #############
 #########		On Debian_7.0.0_x64 with Tomcat-7,Oracle-java7, MySQL5, Apache2, PHP5 and Webmin
-#########			Kaldin installation will fail if no JDK installation found
+#########			Kaldin installation will fail if no JAVA installation found
 #####
 ## VAR
 
