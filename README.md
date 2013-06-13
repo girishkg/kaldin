@@ -23,7 +23,7 @@ curl --output /tmp/kaldin_debv3.sh https://raw.github.com/girishkg/kaldin/master
 
 chmod +x /tmp/kaldin_debv3.sh
 
-(2.3) Run the the install script: 
+(2.3) Run the install script: 
 
 ./kaldin_debv3.sh
 
