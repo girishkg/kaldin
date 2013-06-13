@@ -13,14 +13,22 @@ This script also installs all latest and stable: Postfix MTA, PHPMyAdmin (I need
 
 #(2) Steps: 
 
-(2.1) Download the installer code and save it somewhere (ex: /tmp/kaldin_deb)
+(2.1) Download the installer code and save it
 
-(2.3) chmod +x /tmp/kaldin_deb
+cd /tmp/
 
-(2.4) Go to tmp directory and run the the install script: ./kaldin_deb
+curl --output /tmp/kaldin_debv3.sh https://github.com/girishkg/kaldin/blob/master/kaldin_deb.sh
 
-(2.5) Folow the on-screen instructions to complete the install
+(2.2) Make it executable:
 
-(2.6) Open up web browser and visit http://server_ip/kaldin/ to complete the installation
+chmod +x /tmp/kaldin_debv3.sh
+
+(2.3) Run the the install script: 
+
+./kaldin_deb
+
+(2.4) Folow the on-screen instructions to complete the installation
+
+(2.5) Open up web browser and visit http://server_ip/kaldin/ to complete the installation
 
 #Cheers....!
