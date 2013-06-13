@@ -10,8 +10,8 @@ KALDIN_WAR=http://superb-dca3.dl.sourceforge.net/project/kaldin/Kaldin-1.8/kaldi
 KALDIN_PROXY=/etc/apache2/conf.d/kaldin.conf
 SOURCES_APT=/etc/apt/sources.list
 APACHE_CONF=/etc/apache2/apache2.conf
-JDK_VER=oracle-java7
-JDKPATH=/usr/lib/jvm/
+JAVA_VER=oracle-java7
+JAVAPATH=/usr/lib/jvm/
 SERVER_FQDN=kaldiin.com			## Change this as per your server name
 
 ##
@@ -29,11 +29,11 @@ apt-get -y install oracle-java7-installer
 
 
 #####
-if dpkg --get-selections | grep $JDK_VER; then
-		echo "Found Oracle JDK $JDK_VER, Kaldin can be installed on this system"
+if dpkg --get-selections | grep $JAVA_VER; then
+		echo "Found Oracle JAVA $JAVA_VER, Kaldin can be installed on this system"
 	else 
-		echo "Oracle JDK $JDK_VER wasn't found in $JDKPATH, please check the installation and/or path $JDKPATH"
-		echo "Please correct the JDK installation and then run the Kaldin installer script. Kaldin installer is exiting now"
+		echo "Oracle JAVA $JAVA_VER wasn't found in $JAVAPATH, please check the installation and/or path $JAVAPATH"
+		echo "Please correct the JAVA installation and then run the Kaldin installer script. Kaldin installer is exiting now"
 	exit 1;
 fi
  
