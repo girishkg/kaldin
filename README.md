@@ -11,7 +11,7 @@ This script also installs all latest and stable: Postfix MTA, PHPMyAdmin (I need
 
 (1.2) Internet Connection
 
-#(2) Steps: 
+#(2) Steps: Run as root
 
 (2.1) Download the installer code and save it
 
