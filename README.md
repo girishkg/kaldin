@@ -11,6 +11,10 @@ This script also installs all latest and stable: Postfix MTA, PHPMyAdmin (I need
 
 (1.2) Internet Connection
 
+(1.3) I assume that the server is set up freshly with netinst/minimal OS
+
+(1.4) Don't run this if you have a setup already, you will lose the data.
+
 #(2) Steps: Run as root
 
 (2.1) Download the installer code and save it
