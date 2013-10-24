@@ -15,7 +15,7 @@ This script also installs all latest and stable: Postfix MTA, PHPMyAdmin (I need
 
 (1.4) Don't run this if you have a setup already, you will lose the data.
 
-#(2) Steps: Run as root.
+#(2) Steps: Run as root and folow the onscreen instructions.
 
 (2.1) Download the installer code and save it.
 
@@ -39,7 +39,7 @@ chmod +x /tmp/kaldin_debv3.sh
 
 (3.1) Installs all stable requirements MySQL, Apache2, Tomcat7, Kaldin_2.1, PHP5, PHPMyAdmin, Oracle_JRE_1.7
 
-(3.2) Sets Apache2 as proxy for .
+(3.2) Sets Apache2 as proxy for Tomcat7.
 
 (3.3) Sets required permissions on Kaldin.war.
 
